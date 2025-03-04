@@ -1,0 +1,80 @@
+/* this is the CSS file for the index.html file for the Blog Card challenge from Frontend Mentor */
+
+/* Base styles */
+body {
+    font-family:
+      "Inter",
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Blog card styles */
+  .blog-card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 4px #000000;
+    border: 1px solid #000000;
+    display: flex;
+    max-width: 354px;
+    padding: 24px 24px 43px;
+    flex-direction: column;
+    align-items: stretch;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    white-space: nowrap;
+    justify-content: flex-start;
+  }
+  
+  .blog-image {
+    aspect-ratio: 1.53;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .blog-content {
+    display: flex;
+    margin-top: 24px;
+    min-height: 100px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .category-tag {
+    border-radius: 8px;
+    background-color: #f4d04e;
+    min-height: 29px;
+    width: 82px;
+    padding: 4px 0 4px 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .blog-author {
+    align-self: flex-start;
+    display: flex;
+    min-height: 107px;
+    margin-top: 24px;
+    padding: 10px 0;
+    gap: 10px;
+  }
+  
