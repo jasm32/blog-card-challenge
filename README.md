@@ -1,9 +1,9 @@
-# Blog card website challenge - Frontend Mentor
+# QR Code Challenge Solution
+This repository contains the code for the Blog Card Challenge from Frontend Mentor. 
 
-## Table of contents
+# Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -13,3 +13,43 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
+# Overview
+
+## Screenshot of qr-code-component
+Desktop = ./design/qr-code-desktop.jpg
+Mobile = ./design/qr-code-mobile.jpg
+
+## Links to Live webpage
+https://blog-card-challenge-inky.vercel.app/
+
+# My Process
+
+## Built With
+
+### Software & Tools
+- Figma 
+- Builder.io
+- Visual Studio Code
+
+### Platforms
+- Vercel
+- Github
+
+### Languages
+- HTML
+- CSS
+
+## Resources
+
+### Youtube Videos
+- "Figma Tutorial: Intro toDev Mode" - https://www.youtube.com/watch?v=__ABPkb0aF8 
+- "Figma to Code in One Click - How to Use Visual Copilot" - https://www.youtube.com/watch?v=QMIx_pkzymg 
+- "How to Edit Vectors in Figma" - https://www.youtube.com/watch?v=UDrb5bDXNnk 
+
+### Documentation
+- Figma for Beginners (Figma Learn) - https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-Beginners-4-parts 
+
+# Author
+Name: Jose Arturo Soraiz-Muniz
+Frontend Mentor: @jasm32
