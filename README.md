@@ -17,8 +17,8 @@ This repository contains the code for the Blog Card Challenge from Frontend Ment
 # Overview
 
 ## Screenshot of qr-code-component
-Desktop = ./design/qr-code-desktop.jpg
-Mobile = ./design/qr-code-mobile.jpg
+Desktop = ./design/desktop-card-screenshot.jpg
+Mobile = ./design/mobile-card-screenshot.jpg
 
 ## Links to Live webpage
 https://blog-card-challenge-inky.vercel.app/
