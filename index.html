@@ -1,27 +1,242 @@
-<!DOCTYPE html>
+<!--this file is the main page for the Blog Card challenge from Frontend Mentor-->
 
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Card</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Blog Card Component</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="blog-card.css" />
   </head>
   <body>
-    <article class="blog-card">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/dc5ac8e0d96134f4e59194c4992bdb2a22ffabe147a664df1b054f4f2a025dbd?placeholderIfAbsent=true&apiKey=1da0c2c61f8947c19f6115ae7b109a69"
-        alt="Blog post image"
-        class="blog-image"
-      />
-      <section class="blog-content">
-        <span class="category-tag">Learning</span>
-      </section>
-      <footer class="blog-author"></footer>
-    </article>
+    <div class="page-background">
+      <div class="card">
+        <div class="blog-image-container">
+          <svg
+            width="306"
+            height="200"
+            viewBox="0 0 306 200"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="blog-image"
+          >
+            <g clip-path="url(#clip0_2_10)">
+              <rect width="306" height="200" rx="10" fill="#F4D04E"></rect>
+              <rect
+                x="-51"
+                y="210.059"
+                width="133.229"
+                height="233.266"
+                rx="65"
+                transform="rotate(-50 -51 210.059)"
+                fill="black"
+              ></rect>
+              <line
+                x1="-9.0737"
+                y1="112.82"
+                x2="111.926"
+                y2="207.82"
+                stroke="white"
+                stroke-width="3"
+              ></line>
+              <rect
+                x="172.72"
+                y="-18"
+                width="77.189"
+                height="133.59"
+                rx="38.5945"
+                transform="rotate(50 172.72 -18)"
+                fill="white"
+              ></rect>
+              <rect
+                x="146.413"
+                y="-22"
+                width="80.1355"
+                height="136.301"
+                rx="40"
+                transform="rotate(50 146.413 -22)"
+                fill="black"
+              ></rect>
+              <rect
+                x="120.413"
+                y="-22"
+                width="80.1355"
+                height="136.301"
+                rx="40"
+                transform="rotate(50 120.413 -22)"
+                fill="white"
+              ></rect>
+              <rect
+                x="211.707"
+                y="199.709"
+                width="132.939"
+                height="84.2645"
+                transform="rotate(-45 211.707 199.709)"
+                fill="black"
+                stroke="black"
+              ></rect>
+              <path d="M63 66V91H88" stroke="black" stroke-width="3"></path>
+              <path
+                d="M125 41V16L100 16"
+                stroke="black"
+                stroke-width="3"
+              ></path>
+              <path d="M94 79V29" stroke="black" stroke-width="3"></path>
+              <path
+                d="M201.5 -18L249.803 30.3034C268.593 49.0929 256.301 63.6893 247.806 68.6388L162.396 154.049C143.416 173.029 152.961 186.528 160.106 190.905L202.648 233.447"
+                stroke="black"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M222.506 141L211.192 152.314L228.163 169.284L224.627 184.134L238.77 179.891L257.154 198.276L268.468 186.962"
+                stroke="url(#paint0_linear_2_10)"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M222.506 141L211.192 152.314L228.163 169.284L224.627 184.134L238.77 179.891L257.154 198.276L268.468 186.962"
+                stroke="black"
+                stroke-opacity="0.2"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M243.506 120L232.192 131.314L249.163 148.284L245.627 163.134L259.77 158.891L278.154 177.276L289.468 165.962"
+                stroke="url(#paint1_linear_2_10)"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M243.506 120L232.192 131.314L249.163 148.284L245.627 163.134L259.77 158.891L278.154 177.276L289.468 165.962"
+                stroke="black"
+                stroke-opacity="0.2"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M267.506 99L256.192 110.314L273.163 127.284L269.627 142.134L283.77 137.891L302.154 156.276L313.468 144.962"
+                stroke="url(#paint2_linear_2_10)"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M267.506 99L256.192 110.314L273.163 127.284L269.627 142.134L283.77 137.891L302.154 156.276L313.468 144.962"
+                stroke="black"
+                stroke-opacity="0.2"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M288.506 79L277.192 90.3137L294.163 107.284L290.627 122.134L304.77 117.891L323.154 136.276L334.468 124.962"
+                stroke="url(#paint3_linear_2_10)"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M288.506 79L277.192 90.3137L294.163 107.284L290.627 122.134L304.77 117.891L323.154 136.276L334.468 124.962"
+                stroke="black"
+                stroke-opacity="0.2"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M312.506 59L301.192 70.3137L318.163 87.2843L314.627 102.134L328.77 97.8909L347.154 116.276L358.468 104.962"
+                stroke="url(#paint4_linear_2_10)"
+                stroke-width="3"
+              ></path>
+              <path
+                d="M312.506 59L301.192 70.3137L318.163 87.2843L314.627 102.134L328.77 97.8909L347.154 116.276L358.468 104.962"
+                stroke="black"
+                stroke-opacity="0.2"
+                stroke-width="3"
+              ></path>
+            </g>
+            <defs>
+              <linearGradient
+                id="paint0_linear_2_10"
+                x1="221.054"
+                y1="142.452"
+                x2="268.357"
+                y2="163.556"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop></stop>
+                <stop offset="0.4"></stop>
+                <stop offset="0.505" stop-color="#FFF8F8"></stop>
+                <stop offset="1" stop-color="white"></stop>
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_2_10"
+                x1="242.054"
+                y1="121.452"
+                x2="289.357"
+                y2="142.556"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop></stop>
+                <stop offset="0.4"></stop>
+                <stop offset="0.505" stop-color="#FFF8F8"></stop>
+                <stop offset="1" stop-color="white"></stop>
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_2_10"
+                x1="266.054"
+                y1="100.452"
+                x2="313.357"
+                y2="121.556"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop></stop>
+                <stop offset="0.4"></stop>
+                <stop offset="0.505" stop-color="#FFF8F8"></stop>
+                <stop offset="1" stop-color="white"></stop>
+              </linearGradient>
+              <linearGradient
+                id="paint3_linear_2_10"
+                x1="287.054"
+                y1="80.4518"
+                x2="334.357"
+                y2="101.556"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop></stop>
+                <stop offset="0.4"></stop>
+                <stop offset="0.505" stop-color="#FFF8F8"></stop>
+                <stop offset="1" stop-color="white"></stop>
+              </linearGradient>
+              <linearGradient
+                id="paint4_linear_2_10"
+                x1="311.054"
+                y1="60.4518"
+                x2="358.357"
+                y2="81.5563"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop></stop>
+                <stop offset="0.4"></stop>
+                <stop offset="0.505" stop-color="#FFF8F8"></stop>
+                <stop offset="1" stop-color="white"></stop>
+              </linearGradient>
+              <clipPath id="clip0_2_10">
+                <rect width="306" height="200" rx="10" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="blog-content">
+          <div class="tag">Learning</div>
+          <div class="date">Published 21 Dec 2023</div>
+          <div class="title">HTML & CSS Foundations</div>
+          <div class="description">
+            These languages are the backbone of every website, defininf
+            structure, content, and presentation.
+          </div>
+        </div>
+        <div class="blog-author">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/83e368707ae50e0afcd649d1efb1d1eb7a470d97"
+            alt="Author avatar"
+            class="avatar"
+          />
+          <div class="author-name">Greg Hopper</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
